@@ -51,6 +51,10 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <finalName>performancelogger</finalName>
+    </build>
+
     <distributionManagement>
         <repository>
             <id>github</id>

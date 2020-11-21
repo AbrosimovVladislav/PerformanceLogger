@@ -17,9 +17,9 @@ jobs:
           java-package: jdk
           architecture: x64
       - name: Publish to GitHub Packages
-#        run: mvn -B deploy
-        run: |
-        mvn -B versions:set -DnewVersion=$GITHUB_SHA -DgenerateBackupPoms=false
-        mvn -B deploy
+        run: mvn -B deploy
+#        run: |
+#        mvn -B versions:set -DnewVersion=$GITHUB_SHA -DgenerateBackupPoms=false
+#        mvn -B deploy
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
