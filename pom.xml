@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.vakoom.yourhockey</groupId>
-    <artifactId>PerformanceLogger</artifactId>
+    <artifactId>performance-logger</artifactId>
     <version>1.0</version>
 
     <parent>
@@ -50,10 +50,6 @@
             <optional>true</optional>
         </dependency>
     </dependencies>
-
-    <build>
-        <finalName>performancelogger</finalName>
-    </build>
 
     <distributionManagement>
         <repository>
